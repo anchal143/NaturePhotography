@@ -1,0 +1,766 @@
+.main {
+    background: #181818;
+    font-family: 'Muli', sans-serif;
+}
+
+.titleHead .title-color {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4c86e5;
+}
+
+.titleHead .section-title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 0;
+}
+
+button.navbar-toggler {
+    background: #ffffffab;
+}
+
+.header.active {
+    background: rgb(21 21 21 / 90%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    height: auto;
+}
+
+.header a.navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.header li.nav-item {
+    padding: 0 20px;
+}
+
+.header .nav-link {
+    color: #dbd7d7;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header .nav-link.active {
+    font-weight: 600;
+    color: white;
+}
+
+.mainSlider .carousel-item img {
+    height: auto;
+}
+
+.mainSlider .carousel-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 10%);
+}
+
+.mainSlider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 18.25rem;
+}
+
+.mainSlider .carousel-caption h5 {
+    font-size: 60px;
+}
+
+.mainSlider .carousel-caption p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.ancDiv {
+    padding: 60px 0 0;
+}
+
+.myPortfolio img {
+    cursor: pointer;
+}
+
+img.smlImg {
+    height: 240px;
+}
+
+
+/* about us */
+
+.aboutCnt img {
+    max-width: 100%;
+}
+
+.aboutCnt p {
+    color: white;
+}
+
+.aboutCnt .lead {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+ul.unordered-list {
+    padding: 0 20px;
+}
+
+.unordered-list li {
+    color: white;
+    line-height: 35px;
+}
+
+.btn-white {
+    background: #c1c1c1;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-white:hover {
+    background: #a8b4c8;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* testinomial css */
+
+.testiCol {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.testiImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.testiImg img {
+    height: 100%;
+    border-radius: 10px;
+    width: 320px;
+    object-fit: cover;
+    pointer-events: none;
+    user-select: none;
+}
+
+.testiCol .content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 700px;
+    height: auto;
+    color: #4d4352;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    padding: 45px;
+    z-index: 2;
+    user-select: none;
+}
+
+.testiCol .content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.testiCol .content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 35px;
+    color: #4d4352;
+}
+
+button.owl-prev,
+button.owl-next {
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    border: 2px solid #b1b1b1 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    background: #e6e9e2a1 !important;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: 0.5s ease 0s;
+}
+
+.owl-prev span,
+.owl-next span {
+    position: relative;
+    bottom: 12px;
+}
+
+.myTestiDiv .owl-dots {
+    display: none;
+}
+
+.bg-image {
+    background: no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 21, 21, 0.5);
+}
+
+.textv * {
+    position: relative;
+    z-index: 99 !important;
+}
+
+.bg-image .container {
+    padding: 150px 0 150px 0;
+}
+
+.bg-image h1 {
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/* gallery css */
+
+.gallery-slide {
+    margin: 40px 15px 20px;
+    border-radius: 15px;
+    padding-top: 1px;
+    box-shadow: 6px 6px 8px 0px #bbcbd8;
+}
+
+.gallery-slide .gallery-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: -12px 0px 8px 15px;
+    margin-left: -10px;
+}
+
+.gallery-slide .gallery-img img {
+    width: 100%;
+    height: auto;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+}
+
+.gallery-slide:hover .gallery-img img {
+    transform: scale(1.1, 1.1);
+}
+
+.gallery-slide .over-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(-45deg, rgba(6, 190, 244, 0.75) 0%, rgba(45, 112, 253, 0.6) 100%);
+    transition: all 0.50s linear;
+}
+
+.gallery-slide:hover .over-layer {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.gallery-slide .over-layer i {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+
+.gallerySlider .owl-prev {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    left: 15px;
+    padding: 0 18px 0 15px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: 0.5s ease 0s;
+}
+
+.gallerySlider .owl-next {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    right: 15px;
+    padding: 0 15px 0 18px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: 0.5s ease 0s;
+}
+
+.gallerySlider .owl-dots {
+    display: none;
+}
+
+#galleryModal .btn-close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 17px;
+    font-size: 18px;
+    background: black;
+    color: white;
+    border-radius: 0 0 0 5px;
+}
+
+#galleryModal .modal-body {
+    padding: 0;
+}
+
+.modalImg {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* footer css */
+
+.footer {
+    background: #111111;
+}
+
+.footerCnt {
+    padding: 25px 0;
+}
+
+.footerCnt p {
+    margin-bottom: 0;
+    color: #cecece;
+    font-size: 15px;
+}
+
+.footerCnt p a {
+    color: #bdecef;
+    text-decoration: none;
+}
+
+@media(max-width:767px) {
+    .ancDiv {
+        padding: 30px 0 0;
+    }
+    .aboutCnt .lead {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: normal;
+    }
+    .aboutCnt p {
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .unordered-list li {
+        color: white;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .btn-white {
+        background: #c1c1c1;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .btn-white:hover {
+        background: #a8b4c8;
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .titleHead .section-title {
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    .bg-image h1 {
+        color: white;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    .testiCol .content p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 0;
+    }
+    .testiCol .content h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 12px 0 0 0;
+        color: #4d4352;
+    }
+    .mainSlider .carousel-item img {
+        height: auto;
+    }
+    .mainSlider .carousel-caption {
+        position: absolute;
+        right: 15%;
+        display: block !important;
+        top: 80px;
+    }
+    button.navbar-toggler {
+        background: #ffffffab;
+        font-size: 15px;
+        padding: 6px;
+    }
+    .header a.navbar-brand {
+        font-weight: 700;
+        font-size: 22px;
+        cursor: pointer;
+        color: white;
+    }
+    .header .nav-link {
+        color: #dbd7d7;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .header li.nav-item {
+        padding: 0 20px;
+        border-bottom: 1px solid #373737;
+    }
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+        float: right;
+        margin-top: 8px;
+    }
+    .dropdown-item {
+        font-size: 13px;
+    }
+    .testiCol .content {
+        position: relative;
+        left: 0;
+        top: 120px;
+        text-align: center;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        height: 240px;
+        color: #4d4352;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border-radius: 15%;
+        padding: 15px;
+        z-index: 2;
+        user-select: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .testiImg {
+        position: relative;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+    .testiImg img {
+        height: 250px;
+        border-radius: 15px;
+        margin: 5px;
+        width: 100% !important;
+    }
+    .testiCol {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .mainSlider .carousel-caption h5 {
+        font-size: 24px;
+    }
+    .mainSlider .carousel-caption p {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .deskv {
+        background: rgb(21 21 21 / 90%);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        height: auto;
+    }
+    button.owl-prev,
+    button.owl-next {
+        font-size: 32px !important;
+        font-weight: 600 !important;
+        border: 2px solid #b1b1b1 !important;
+        width: 30px;
+        height: 30px;
+        border-radius: 50% !important;
+        background: #e6e9e2a1 !important;
+        box-shadow: 3px 14px 25px -10px #92b4d0;
+        transition: 0.5s ease 0s;
+    }
+    .footerCnt {
+        padding: 20px 0;
+    }
+    .footerCnt p {
+        margin-bottom: 0;
+        color: #cecece;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .ancDiv {
+        padding: 30px 0 0;
+    }
+    .aboutCnt .lead {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: normal;
+    }
+    .aboutCnt p {
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .unordered-list li {
+        color: white;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .btn-white {
+        background: #c1c1c1;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .btn-white:hover {
+        background: #a8b4c8;
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .titleHead .section-title {
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    .bg-image h1 {
+        color: white;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    .testiCol .content p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 0;
+    }
+    .testiCol .content h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 12px 0 0 0;
+        color: #4d4352;
+    }
+    .mainSlider .carousel-item img {
+        height: auto;
+    }
+    .mainSlider .carousel-caption {
+        position: absolute;
+        right: 15%;
+        display: block !important;
+        top: 170px;
+    }
+    button.navbar-toggler {
+        background: #ffffffab;
+        font-size: 15px;
+        padding: 6px;
+    }
+    .header a.navbar-brand {
+        font-weight: 700;
+        font-size: 22px;
+        cursor: pointer;
+        color: white;
+    }
+    .header .nav-link {
+        color: #dbd7d7;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .header li.nav-item {
+        padding: 0 20px;
+        border-bottom: 1px solid #373737;
+    }
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+        float: right;
+        margin-top: 8px;
+    }
+    .dropdown-item {
+        font-size: 13px;
+    }
+    .testiCol .content {
+        position: relative;
+        left: 0;
+        top: 120px;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        height: 240px;
+        text-align: center;
+        color: #4d4352;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border-radius: 50% 50% 50% 50%;
+        padding: 30px;
+        z-index: 2;
+        user-select: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .owl-prev span,
+    .owl-next span {
+        position: relative;
+        bottom: 14px;
+    }
+    .testiImg {
+        position: relative;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+    .testiImg img {
+        height: 250px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 100% !important;
+    }
+    .testiCol {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .mainSlider .carousel-caption h5 {
+        font-size: 35px;
+    }
+    .mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .deskv {
+        background: rgb(21 21 21 / 90%);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        height: auto;
+    }
+    button.owl-prev,
+    button.owl-next {
+        font-size: 32px !important;
+        font-weight: 600 !important;
+        border: 2px solid #b1b1b1 !important;
+        width: 30px;
+        height: 30px;
+        border-radius: 50% !important;
+        background: #e6e9e2a1 !important;
+        box-shadow: 3px 14px 25px -10px #92b4d0;
+        transition: 0.5s ease 0s;
+    }
+    .footerCnt {
+        padding: 20px 0;
+    }
+    .footerCnt p {
+        margin-bottom: 0;
+        color: #cecece;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .header a.navbar-brand {
+        font-weight: 700;
+        font-size: 22px;
+        cursor: pointer;
+        color: white;
+    }
+    .header .nav-link {
+        color: #dbd7d7;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .mainSlider .carousel-caption {
+        position: absolute;
+        right: 15%;
+        top: 13.25rem;
+    }
+    .aboutCnt .lead {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: normal;
+    }
+    .aboutCnt p {
+        color: white;
+        line-height: 23px;
+        font-size: 14px;
+    }
+    .unordered-list li {
+        color: white;
+        line-height: 25px;
+        font-size: 14px;
+    }
+}
